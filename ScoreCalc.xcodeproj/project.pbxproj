@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2218C6E2216BB4B00B5C49A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2218C6D2216BB4B00B5C49A /* AppDelegate.swift */; };
+		F2218C702216BB4B00B5C49A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2218C6F2216BB4B00B5C49A /* ViewController.swift */; };
+		F2218C732216BB4B00B5C49A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2218C712216BB4B00B5C49A /* Main.storyboard */; };
+		F2218C752216BB4C00B5C49A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2218C742216BB4C00B5C49A /* Assets.xcassets */; };
+		F2218C782216BB4C00B5C49A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2218C762216BB4C00B5C49A /* LaunchScreen.storyboard */; };
+		F2218C832216BB4C00B5C49A /* ScoreCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2218C822216BB4C00B5C49A /* ScoreCalcTests.swift */; };
+		F2218C8E2216BB4C00B5C49A /* ScoreCalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2218C8D2216BB4C00B5C49A /* ScoreCalcUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2218C7F2216BB4C00B5C49A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2218C622216BB4B00B5C49A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2218C692216BB4B00B5C49A;
+			remoteInfo = ScoreCalc;
+		};
+		F2218C8A2216BB4C00B5C49A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2218C622216BB4B00B5C49A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2218C692216BB4B00B5C49A;
+			remoteInfo = ScoreCalc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F2218C6A2216BB4B00B5C49A /* ScoreCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScoreCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2218C6D2216BB4B00B5C49A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2218C6F2216BB4B00B5C49A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2218C722216BB4B00B5C49A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2218C742216BB4C00B5C49A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2218C772216BB4C00B5C49A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2218C792216BB4C00B5C49A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2218C7E2216BB4C00B5C49A /* ScoreCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScoreCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2218C822216BB4C00B5C49A /* ScoreCalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCalcTests.swift; sourceTree = "<group>"; };
+		F2218C842216BB4C00B5C49A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2218C892216BB4C00B5C49A /* ScoreCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScoreCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2218C8D2216BB4C00B5C49A /* ScoreCalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCalcUITests.swift; sourceTree = "<group>"; };
+		F2218C8F2216BB4C00B5C49A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2218C672216BB4B00B5C49A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2218C7B2216BB4C00B5C49A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2218C862216BB4C00B5C49A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2218C612216BB4B00B5C49A = {
+			isa = PBXGroup;
+			children = (
+				F2218C6C2216BB4B00B5C49A /* ScoreCalc */,
+				F2218C812216BB4C00B5C49A /* ScoreCalcTests */,
+				F2218C8C2216BB4C00B5C49A /* ScoreCalcUITests */,
+				F2218C6B2216BB4B00B5C49A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2218C6B2216BB4B00B5C49A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2218C6A2216BB4B00B5C49A /* ScoreCalc.app */,
+				F2218C7E2216BB4C00B5C49A /* ScoreCalcTests.xctest */,
+				F2218C892216BB4C00B5C49A /* ScoreCalcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2218C6C2216BB4B00B5C49A /* ScoreCalc */ = {
+			isa = PBXGroup;
+			children = (
+				F2218C6D2216BB4B00B5C49A /* AppDelegate.swift */,
+				F2218C6F2216BB4B00B5C49A /* ViewController.swift */,
+				F2218C712216BB4B00B5C49A /* Main.storyboard */,
+				F2218C742216BB4C00B5C49A /* Assets.xcassets */,
+				F2218C762216BB4C00B5C49A /* LaunchScreen.storyboard */,
+				F2218C792216BB4C00B5C49A /* Info.plist */,
+			);
+			path = ScoreCalc;
+			sourceTree = "<group>";
+		};
+		F2218C812216BB4C00B5C49A /* ScoreCalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2218C822216BB4C00B5C49A /* ScoreCalcTests.swift */,
+				F2218C842216BB4C00B5C49A /* Info.plist */,
+			);
+			path = ScoreCalcTests;
+			sourceTree = "<group>";
+		};
+		F2218C8C2216BB4C00B5C49A /* ScoreCalcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F2218C8D2216BB4C00B5C49A /* ScoreCalcUITests.swift */,
+				F2218C8F2216BB4C00B5C49A /* Info.plist */,
+			);
+			path = ScoreCalcUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2218C692216BB4B00B5C49A /* ScoreCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2218C922216BB4C00B5C49A /* Build configuration list for PBXNativeTarget "ScoreCalc" */;
+			buildPhases = (
+				F2218C662216BB4B00B5C49A /* Sources */,
+				F2218C672216BB4B00B5C49A /* Frameworks */,
+				F2218C682216BB4B00B5C49A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScoreCalc;
+			productName = ScoreCalc;
+			productReference = F2218C6A2216BB4B00B5C49A /* ScoreCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2218C7D2216BB4C00B5C49A /* ScoreCalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2218C952216BB4C00B5C49A /* Build configuration list for PBXNativeTarget "ScoreCalcTests" */;
+			buildPhases = (
+				F2218C7A2216BB4C00B5C49A /* Sources */,
+				F2218C7B2216BB4C00B5C49A /* Frameworks */,
+				F2218C7C2216BB4C00B5C49A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2218C802216BB4C00B5C49A /* PBXTargetDependency */,
+			);
+			name = ScoreCalcTests;
+			productName = ScoreCalcTests;
+			productReference = F2218C7E2216BB4C00B5C49A /* ScoreCalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F2218C882216BB4C00B5C49A /* ScoreCalcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2218C982216BB4C00B5C49A /* Build configuration list for PBXNativeTarget "ScoreCalcUITests" */;
+			buildPhases = (
+				F2218C852216BB4C00B5C49A /* Sources */,
+				F2218C862216BB4C00B5C49A /* Frameworks */,
+				F2218C872216BB4C00B5C49A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2218C8B2216BB4C00B5C49A /* PBXTargetDependency */,
+			);
+			name = ScoreCalcUITests;
+			productName = ScoreCalcUITests;
+			productReference = F2218C892216BB4C00B5C49A /* ScoreCalcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2218C622216BB4B00B5C49A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Neosofttechnologies;
+				TargetAttributes = {
+					F2218C692216BB4B00B5C49A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F2218C7D2216BB4C00B5C49A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F2218C692216BB4B00B5C49A;
+					};
+					F2218C882216BB4C00B5C49A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F2218C692216BB4B00B5C49A;
+					};
+				};
+			};
+			buildConfigurationList = F2218C652216BB4B00B5C49A /* Build configuration list for PBXProject "ScoreCalc" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2218C612216BB4B00B5C49A;
+			productRefGroup = F2218C6B2216BB4B00B5C49A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2218C692216BB4B00B5C49A /* ScoreCalc */,
+				F2218C7D2216BB4C00B5C49A /* ScoreCalcTests */,
+				F2218C882216BB4C00B5C49A /* ScoreCalcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2218C682216BB4B00B5C49A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2218C782216BB4C00B5C49A /* LaunchScreen.storyboard in Resources */,
+				F2218C752216BB4C00B5C49A /* Assets.xcassets in Resources */,
+				F2218C732216BB4B00B5C49A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2218C7C2216BB4C00B5C49A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2218C872216BB4C00B5C49A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2218C662216BB4B00B5C49A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2218C702216BB4B00B5C49A /* ViewController.swift in Sources */,
+				F2218C6E2216BB4B00B5C49A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2218C7A2216BB4C00B5C49A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2218C832216BB4C00B5C49A /* ScoreCalcTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2218C852216BB4C00B5C49A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2218C8E2216BB4C00B5C49A /* ScoreCalcUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2218C802216BB4C00B5C49A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2218C692216BB4B00B5C49A /* ScoreCalc */;
+			targetProxy = F2218C7F2216BB4C00B5C49A /* PBXContainerItemProxy */;
+		};
+		F2218C8B2216BB4C00B5C49A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2218C692216BB4B00B5C49A /* ScoreCalc */;
+			targetProxy = F2218C8A2216BB4C00B5C49A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2218C712216BB4B00B5C49A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2218C722216BB4B00B5C49A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2218C762216BB4C00B5C49A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2218C772216BB4C00B5C49A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2218C902216BB4C00B5C49A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2218C912216BB4C00B5C49A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2218C932216BB4C00B5C49A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WG85887QT8;
+				INFOPLIST_FILE = ScoreCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Neosoft.ScoreCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2218C942216BB4C00B5C49A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WG85887QT8;
+				INFOPLIST_FILE = ScoreCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Neosoft.ScoreCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F2218C962216BB4C00B5C49A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WG85887QT8;
+				INFOPLIST_FILE = ScoreCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Neosoft.ScoreCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScoreCalc.app/ScoreCalc";
+			};
+			name = Debug;
+		};
+		F2218C972216BB4C00B5C49A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WG85887QT8;
+				INFOPLIST_FILE = ScoreCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Neosoft.ScoreCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScoreCalc.app/ScoreCalc";
+			};
+			name = Release;
+		};
+		F2218C992216BB4C00B5C49A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WG85887QT8;
+				INFOPLIST_FILE = ScoreCalcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Neosoft.ScoreCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScoreCalc;
+			};
+			name = Debug;
+		};
+		F2218C9A2216BB4C00B5C49A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WG85887QT8;
+				INFOPLIST_FILE = ScoreCalcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Neosoft.ScoreCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScoreCalc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2218C652216BB4B00B5C49A /* Build configuration list for PBXProject "ScoreCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2218C902216BB4C00B5C49A /* Debug */,
+				F2218C912216BB4C00B5C49A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2218C922216BB4C00B5C49A /* Build configuration list for PBXNativeTarget "ScoreCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2218C932216BB4C00B5C49A /* Debug */,
+				F2218C942216BB4C00B5C49A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2218C952216BB4C00B5C49A /* Build configuration list for PBXNativeTarget "ScoreCalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2218C962216BB4C00B5C49A /* Debug */,
+				F2218C972216BB4C00B5C49A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2218C982216BB4C00B5C49A /* Build configuration list for PBXNativeTarget "ScoreCalcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2218C992216BB4C00B5C49A /* Debug */,
+				F2218C9A2216BB4C00B5C49A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2218C622216BB4B00B5C49A /* Project object */;
+}
